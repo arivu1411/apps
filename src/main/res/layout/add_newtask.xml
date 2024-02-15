@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/addNewTaskEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="LabelFor,RtlSymmetry"
+        android:paddingStart="20dp"
+        android:hint="@string/new_task"
+        android:autofillHints="" />
+
+    <EditText
+        android:inputType="date"
+        android:id="@+id/dateEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_a_date"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="85dp"
+        android:paddingStart="18dp"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="date" />
+
+    <EditText
+        android:inputType="time"
+        android:id="@+id/TimeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_a_time"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="135dp"
+        android:paddingStart="18dp"
+        tools:ignore="RtlSymmetry"
+        android:importantForAutofill="no" />
+
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/TimeEditText"
+      android:layout_marginStart="310dp"
+      android:text="@string/save"
+      android:textStyle="bold"
+      android:backgroundTint="#13042C"
+      android:textColor="@color/white"
+      android:layout_marginTop="50dp"
+      android:id="@id/taskSavingButton" />
+
+
+
+
+
+</RelativeLayout>

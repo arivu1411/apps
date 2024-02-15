@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="welcome">WELCOME</string>
+    <string name="tasks">Tasks</string>
+    <string name="task">Task</string>
+    <string name="hello_im_arivu">hello im arivu</string>
+    <string name="new_task">New Task</string>
+    <string name="add">add</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="enter_a_date">Enter A Date</string>
+    <string name="enter_a_time">Enter A Time</string>
+    <string name="save">SAVE</string>
+    <string name="next">NEXT</string>
+    <string name="hello_you_find_the_error">Hello you find the error</string>
+</resources>
